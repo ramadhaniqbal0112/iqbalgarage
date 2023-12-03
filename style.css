@@ -1,0 +1,269 @@
+/* style universal start */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+.kanit {
+    font-family: 'kanit', Arial, Helvetica, sans-serif;
+}
+
+.raleway {
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+}
+
+.inter {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+}
+
+.kdam-thmor-pro {
+    font-family: "kdam thmor pro", Arial, Helvetica, sans-serif;
+}
+
+.text-secondary-2{
+    color: #e5e5e5;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    background-image: url("img/SL-092920-35860-07.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* style universal end */
+
+/* style halaman index start */
+.topbar-contact {
+    gap: 10px;
+}
+.image-landing-page {
+    position: relative;
+    width: 420px;
+    height: 460px;
+    background-image: url("img/jumbotron.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* style navbar start */
+nav.my-navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+.dropdown-menu li a {
+    color: white;
+}
+.my-navbar *  {
+    color: white;
+}
+.my-navbar * :hover {
+    color: #ffbe0b;
+}
+/* style navbar end */
+/* style footer start */
+
+.address * {
+    font-size: 14px;
+    color: #ccc5b9;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+/* style footer end */
+/* style halaman index end */
+
+/* style halaman home start */
+.image-landing-page div:nth-child(1) {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    right: 20px;
+}
+
+.image-landing-page div:nth-child(2) {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: -25px;
+    left: 20px;
+}
+
+.image-landing-page div:nth-child(3) {
+    position: absolute;
+    height: 440px;
+    width: 400px;
+    top: 50px;
+    left: -40px;
+    z-index: -10;
+}
+
+.title-landing-page h1 {
+    font-size: 46px;
+}
+
+.title-landing-page .outlined-text {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffbe0b;
+    text-stroke: 1px #ffbe0b;
+    z-index: -10;
+    top: 7px;
+    left: -7px;
+}
+
+.riding h5 {
+    background-color: #ffc300;
+    color: #060700;
+    letter-spacing: 3px;
+}
+
+.riding hr {
+    border: 2px solid red;
+    width: 80%;
+    margin: auto;
+}
+
+.list-menu>a,
+.list-menu>a>i {
+    color: #ccc5b9;
+}
+
+.list-menu>a:hover {
+    color: #ffbe0b;
+}
+/* style halaman home end */
+
+/* Style halaman About Us start */
+.about-us-jumbotron{
+    height: 300px;
+    background-image: url("img/close-up-view-motorcycle-parts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 1);
+}
+.about-us-jumbotron > div:nth-child(1){
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.about-us-jumbotron > div:nth-child(2){
+    z-index: 1;
+}
+.about-us-jumbotron > div:nth-child(2) > h5 {
+    font-size: 2.8rem;
+}
+.about-us-jumbotron > div:nth-child(2) > p > a:hover{
+    color: #ffbe0b;
+}
+.h6-about-us{
+    font-size: 14px;
+}
+.h5-about-us{
+    font-size: 2rem;
+}
+
+.my-info>div:nth-child(2)>img{
+    width: 100%;
+    max-width: 400px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.description{
+    line-height: 27px;
+}
+
+.custom>div{
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+.custom>div>div>img{
+    width: 100%;
+    max-width: 350px;
+}
+.custom>div>div>h5{
+    font-size: 22px;
+    color: #ffc300;
+}
+.slide-show{
+    overflow-x: scroll;
+}
+.slide-show::-webkit-scrollbar{
+    height: 6px;
+    width: 0;
+    background-color: #060700;
+    border-radius: 15px;
+}
+.slide-show::-webkit-scrollbar-thumb{
+    background-color: #ffbe0b;
+    border-radius: 15px;
+}
+
+.my-figure{
+    position: relative;
+}
+.my-figure>img{
+    max-width: 400px;
+    width: 350px;
+}
+.my-figure>figcaption{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 18px;
+}
+/* Style halaman About Us end */
+
+/* Style Halaman Booking Service Start */
+.form-booking{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+/* Style Halaman Booking Service End */
+
+@media screen and (max-width: 767px) {
+    .media section.col:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    .topbar-contact {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .my-info {
+        gap: 35px;
+    }
+}
